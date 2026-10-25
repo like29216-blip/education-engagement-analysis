@@ -1,0 +1,16 @@
+action	track	count	enrolled_students	share_of_enrolled
+Enrolled in a track	1	2999	2999	1.0000
+Attempted a course exam	1	406	2999	0.1354
+Completed a course exam	1	365	2999	0.1217
+Attempted a final exam	1	24	2999	0.0080
+Earned a career track certificate	1	16	2999	0.0053
+Enrolled in a track	2	3915	3915	1.0000
+Attempted a course exam	2	339	3915	0.0866
+Completed a course exam	2	323	3915	0.0825
+Attempted a final exam	2	33	3915	0.0084
+Earned a career track certificate	2	15	3915	0.0038
+Enrolled in a track	3	960	960	1.0000
+Attempted a course exam	3	183	960	0.1906
+Completed a course exam	3	168	960	0.1750
+Attempted a final exam	3	17	960	0.0177
+Earned a career track certificate	3	12	960	0.0125

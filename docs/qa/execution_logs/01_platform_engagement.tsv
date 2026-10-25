@@ -1,0 +1,26 @@
+registered_users	active_users	purchasers	corrected_minutes	certificates_issued
+37490	19332	2338	1917374.91	3683
+activity_month	paid	active_users
+2022-01	0	1540
+2022-01	1	255
+2022-02	0	1553
+2022-02	1	365
+2022-03	0	1835
+2022-03	1	502
+2022-04	0	1577
+2022-04	1	547
+2022-05	0	1574
+2022-05	1	589
+2022-06	0	1995
+2022-06	1	662
+2022-07	0	1712
+2022-07	1	742
+2022-08	0	3177
+2022-08	1	782
+2022-09	0	2235
+2022-09	1	844
+2022-10	0	3111
+2022-10	1	870
+observation_window	observed_days	mean_daily_active
+free_days	3	784.6667
+prior_seven_days	7	278.1429

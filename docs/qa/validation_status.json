@@ -1,0 +1,18 @@
+{
+  "validated_utc": "2026-10-25T21:23:08.833234+00:00",
+  "mysql_runtime": "5.7.24",
+  "strict_grouping": true,
+  "sql_modules": 9,
+  "sql_expected_value_checks_passed": 24,
+  "original_csv_datasets": 10,
+  "original_csv_matching_datasets": 9,
+  "known_learning_mismatch_rows": 12181,
+  "original_hyper_matching_csv_datasets": 9,
+  "known_f2p_hyper_null_minutes": 18524,
+  "reviewed_hyper_matching_sql_datasets": 10,
+  "original_files_hash_verified": 26,
+  "original_preview_images": 9,
+  "full_resolution_screenshots": 0,
+  "reviewed_visual_rendering": "pending_manual_review",
+  "published": false
+}

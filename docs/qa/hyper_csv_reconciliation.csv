@@ -1,0 +1,11 @@
+data_source,hyper_rows,csv_rows,key_mismatches,value_mismatches,duplicate_keys
+student_buckets_f2p,37490,37490,0,18524,0
+student_buckets_sub_duration,2338,2338,0,0,0
+student_engagement,68340,68340,0,0,0
+student_learning,67436,67436,0,0,0
+student_onboarding,37490,37490,0,0,0
+student_certificates,3683,3683,0,0,0
+student_exam_attempts,35359,35359,0,0,0
+courses_engagement,50,50,0,0,0
+course_ratings,2731,2731,0,0,0
+career_track_funnel,15,15,0,0,0

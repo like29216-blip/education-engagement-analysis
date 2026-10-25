@@ -1,0 +1,56 @@
+[
+  {
+    "dashboard": "Cohort Engagement",
+    "file": "cohort_engagement_embedded.png",
+    "source": "Original TWB embedded thumbnail; not a new screenshot",
+    "sha256": "c5e58ba52aea2fcab7d99b63891144e44b98db9eb6ebcb962587a2810aee5563"
+  },
+  {
+    "dashboard": "Engagement Date",
+    "file": "engagement_date_embedded.png",
+    "source": "Original TWB embedded thumbnail; not a new screenshot",
+    "sha256": "91ecb2ef781613f38686c6798b2714d96147f6a5438e58022ecc2add63e2e400"
+  },
+  {
+    "dashboard": "Engagement Month",
+    "file": "engagement_month_embedded.png",
+    "source": "Original TWB embedded thumbnail; not a new screenshot",
+    "sha256": "82cf9a0024073fdbf2dc1234574712439fd475769535745a1b8d9c072c8c133b"
+  },
+  {
+    "dashboard": "Engagement Year",
+    "file": "engagement_year_embedded.png",
+    "source": "Original TWB embedded thumbnail; not a new screenshot",
+    "sha256": "54bfaeb633df3ecf1f5f84f72ae556ca65c465581d69038ad889651968a7e504"
+  },
+  {
+    "dashboard": "Exams and Certificates",
+    "file": "exams_and_certificates_embedded.png",
+    "source": "Original TWB embedded thumbnail; not a new screenshot",
+    "sha256": "fa26094c8d52ba72180164e3c8d6d32660f1d7deaa12515e4c21d08df7d694cb"
+  },
+  {
+    "dashboard": "Exams and Funnel",
+    "file": "exams_and_funnel_embedded.png",
+    "source": "Original TWB embedded thumbnail; not a new screenshot",
+    "sha256": "17e404f1cd732e97249e5553cca86dedce7ef2f896da277c729c10b2b7696ff7"
+  },
+  {
+    "dashboard": "Overview",
+    "file": "overview_embedded.png",
+    "source": "Original TWB embedded thumbnail; not a new screenshot",
+    "sha256": "27d511c84a11855fdc465faeb8caba06396003fbbcb92d49bb9df7791469c6b4"
+  },
+  {
+    "dashboard": "Student Learning and F2P",
+    "file": "student_learning_and_f2p_embedded.png",
+    "source": "Original TWB embedded thumbnail; not a new screenshot",
+    "sha256": "f6294132e2e8882547b30062a2db2c0d1e7d142a77604b8ac40b9efdfb7dc581"
+  },
+  {
+    "dashboard": "Student Learning and Subs",
+    "file": "student_learning_and_subs_embedded.png",
+    "source": "Original TWB embedded thumbnail; not a new screenshot",
+    "sha256": "264cc4880526e3bb7633b352cd5414a66f46af3c48879e7c84776dead8eaebc4"
+  }
+]

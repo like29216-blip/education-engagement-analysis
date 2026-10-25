@@ -1,0 +1,179 @@
+[
+  {
+    "dashboard": "Cohort Engagement",
+    "worksheets": [
+      "Cohort",
+      "Retention curve",
+      "cohort tooltip"
+    ],
+    "controls": [
+      "Type (parameter)"
+    ],
+    "size": {
+      "maxheight": "768",
+      "maxwidth": "1366",
+      "minheight": "768",
+      "minwidth": "1366",
+      "preset-index": "0",
+      "sizing-mode": "fixed"
+    }
+  },
+  {
+    "dashboard": "Engagement Date",
+    "worksheets": [
+      "Engagement date",
+      "Onboarding date"
+    ],
+    "controls": [
+      "End (filter)",
+      "Start (filter)",
+      "Type (filter)"
+    ],
+    "size": {
+      "maxheight": "768",
+      "maxwidth": "1366",
+      "minheight": "768",
+      "minwidth": "1366",
+      "preset-index": "0",
+      "sizing-mode": "fixed"
+    }
+  },
+  {
+    "dashboard": "Engagement Month",
+    "worksheets": [
+      "Engagement month",
+      "Onboarding month"
+    ],
+    "controls": [
+      "Type (filter)",
+      "[Parameters].[参数 5]"
+    ],
+    "size": {
+      "maxheight": "768",
+      "maxwidth": "1366",
+      "minheight": "768",
+      "minwidth": "1366",
+      "preset-index": "0",
+      "sizing-mode": "fixed"
+    }
+  },
+  {
+    "dashboard": "Engagement Year",
+    "worksheets": [
+      "Engagement year",
+      "Onboarding year"
+    ],
+    "controls": [
+      "Type (filter)"
+    ],
+    "size": {
+      "maxheight": "768",
+      "maxwidth": "1366",
+      "minheight": "768",
+      "minwidth": "1366",
+      "preset-index": "0",
+      "sizing-mode": "fixed"
+    }
+  },
+  {
+    "dashboard": "Exams and Certificates",
+    "worksheets": [
+      "Certificates issued",
+      "Exam attempt"
+    ],
+    "controls": [
+      "Certificate Type Filter",
+      "[federated.1pds8re1flhfad1adqv4h117lu4a].[none:exam_category:ok]"
+    ],
+    "size": {
+      "maxheight": "768",
+      "maxwidth": "1366",
+      "minheight": "768",
+      "minwidth": "1366",
+      "preset-index": "0",
+      "sizing-mode": "fixed"
+    }
+  },
+  {
+    "dashboard": "Exams and Funnel",
+    "worksheets": [
+      "Career track funnel",
+      "Exam attempt"
+    ],
+    "controls": [
+      "Track Filter",
+      "[federated.1pds8re1flhfad1adqv4h117lu4a].[none:exam_category:ok]"
+    ],
+    "size": {
+      "maxheight": "768",
+      "maxwidth": "1366",
+      "minheight": "768",
+      "minwidth": "1366",
+      "preset-index": "0",
+      "sizing-mode": "fixed"
+    }
+  },
+  {
+    "dashboard": "Overview",
+    "worksheets": [
+      "course rating ",
+      "courses completion rate",
+      "courses minutes",
+      "courses minutes per student",
+      "kpi certificates",
+      "kpi minutes",
+      "kpi students"
+    ],
+    "controls": [
+      "Choose Option (filter)",
+      "End (filter)",
+      "Select Chart (filter)",
+      "Start (filter)",
+      "Student type (filter)"
+    ],
+    "size": {
+      "maxheight": "768",
+      "maxwidth": "1366",
+      "minheight": "768",
+      "minwidth": "1366",
+      "preset-index": "0",
+      "sizing-mode": "fixed"
+    }
+  },
+  {
+    "dashboard": "Student Learning and F2P",
+    "worksheets": [
+      "Buckets F2P",
+      "Minutes Watched"
+    ],
+    "controls": [
+      "[federated.0b10oz21bjmsg21f3od241hyzwj1].[none:paid:ok]"
+    ],
+    "size": {
+      "maxheight": "768",
+      "maxwidth": "1366",
+      "minheight": "768",
+      "minwidth": "1366",
+      "preset-index": "0",
+      "sizing-mode": "fixed"
+    }
+  },
+  {
+    "dashboard": "Student Learning and Subs",
+    "worksheets": [
+      "Buckets Subs Duration",
+      "Minutes Watched"
+    ],
+    "controls": [
+      "[federated.0b10oz21bjmsg21f3od241hyzwj1].[none:paid:ok]"
+    ],
+    "size": {
+      "maxheight": "768",
+      "maxwidth": "1366",
+      "minheight": "768",
+      "minwidth": "1366",
+      "preset-index": "0",
+      "sizing-mode": "fixed"
+    }
+  }
+]

@@ -1,0 +1,51 @@
+course_id	course_title	course_duration	learners	minutes_watched	minutes_per_student	viewing_duration_ratio	rating_count	mean_rating
+7	Introduction to Data and Data Science	110.69	9950	297197.71	29.87	0.27	616	4.8539
+14	SQL	491.35	1882	215894.11	114.72	0.23	138	4.8261
+21	Statistics	201.65	2459	199005.66	80.93	0.40	231	4.8225
+23	Introduction to Excel	220.36	3077	194196.44	63.11	0.29	255	4.7882
+16	Python Programmer Bootcamp	648.47	1403	150891.80	107.55	0.17	113	4.8319
+42	Data Strategy	291.57	2108	133662.39	63.41	0.22	167	4.7425
+46	Data Literacy	252.6	685	80613.75	117.68	0.47	77	4.7662
+24	Probability	219.94	709	57515.15	81.12	0.37	65	4.6769
+37	Machine Learning in Python	292.42	1072	54566.52	50.90	0.17	53	4.8302
+35	Introduction to Python	130.44	1099	45381.43	41.29	0.32	111	4.7387
+3	The Complete Data Visualization Course with Python, R, Tableau, and Excel	514.23	601	44950.58	74.79	0.15	37	4.7027
+28	Power BI	462.75	827	44698.18	54.05	0.12	49	4.6122
+5	Data Preprocessing with NumPy	392.99	373	37058.31	99.35	0.25	34	4.9118
+39	Advanced Microsoft Excel	146.09	574	29763.26	51.85	0.35	55	4.7818
+2	Introduction to Tableau	95.93	651	26179.02	40.21	0.42	41	4.6098
+13	Data Analysis with Excel Pivot Tables	54.47	967	22321.72	23.08	0.42	97	4.8454
+11	Data Cleaning and Preprocessing with pandas	145.2	481	21701.18	45.12	0.31	56	4.6429
+4	Introduction to R Programming	386.65	300	20737.10	69.12	0.18	28	4.8929
+15	Credit Risk Modeling in Python	388.2	454	19513.04	42.98	0.11	17	4.7059
+45	SQL for Data Science Interviews	147.35	1413	18614.85	13.17	0.09	18	4.7778
+22	Mathematics	51.08	754	18588.64	24.65	0.48	69	4.8406
+32	Deep Learning with TensorFlow 2	293.6	313	17836.60	56.99	0.19	16	4.8125
+25	Starting a Career in Data Science: Project Portfolio, Resume, and Interview Process	241.93	489	16635.13	34.02	0.14	21	4.8571
+34	Web Scraping and API Fundamentals in Python	211.27	340	13879.82	40.82	0.19	12	4.5833
+27	Time Series Analysis with Python	419.76	242	12947.33	53.50	0.13	13	4.6923
+20	Introduction to Jupyter	34.61	775	12035.70	15.53	0.45	65	4.9385
+33	Customer Analytics in Python	288	209	10147.60	48.55	0.17	13	4.9231
+12	Introduction to Business Analytics	283.87	259	10002.14	38.62	0.14	15	4.4000
+30	Git and GitHub	49.57	408	9997.80	24.50	0.49	43	4.9070
+29	Product Management for AI & Data Science	294.28	252	8852.64	35.13	0.12	19	4.8421
+26	SQL + Tableau	79.23	323	7304.91	22.62	0.29	27	4.7778
+53	A/B Testing in Python	176.47	258	6227.82	24.14	0.14	13	4.6923
+36	Python for Finance	263.06	185	5539.91	29.95	0.11	10	4.6000
+67	How to Think Like a Data Scientist to Become One	174.45	114	5089.67	44.65	0.26	18	4.6111
+19	SQL + Tableau + Python	260.01	230	5081.72	22.09	0.08	7	5.0000
+41	Convolutional Neural Networks with TensorFlow in Python	266.67	129	4890.35	37.91	0.14	4	4.7500
+43	Fashion Analytics with Tableau	198.33	164	4868.47	29.69	0.15	14	4.5714
+49	Linear Algebra and Feature Selection	172.89	142	4827.08	33.99	0.20	8	4.8750
+50	Machine Learning with Naive Bayes	66.83	198	4598.38	23.22	0.35	19	4.7368
+51	Machine Learning in Excel	353.98	159	4444.74	27.95	0.08	6	4.6667
+54	Machine Learning with Decision Trees and Random Forests	88.15	129	4267.68	33.08	0.38	18	4.7778
+55	Machine Learning with K-Nearest Neighbors	79.93	108	3475.05	32.18	0.40	15	4.7333
+52	Machine Learning with Support Vector Machines	55.18	117	2961.85	25.31	0.46	12	4.7500
+44	Dates and Times in Python	120.1	95	2824.45	29.73	0.25	8	4.8750
+48	AI Applications for Business Success	133.91	100	1921.06	19.21	0.14	4	4.2500
+56	Machine Learning with Ridge and Lasso Regression	75.01	55	1696.66	30.85	0.41	NULL	NULL
+57	Data-Driven Business Growth	213.27	92	1089.26	11.84	0.06	1	1.0000
+66	Blockchain for Business	328.22	7	454.32	64.90	0.20	1	3.0000
+59	Marketing Strategy	106.79	5	341.48	68.30	0.64	2	4.5000
+60	Negotiation	88.7	1	84.45	84.45	0.95	NULL	NULL

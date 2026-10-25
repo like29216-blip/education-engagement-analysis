@@ -1,0 +1,13 @@
+platform_kpis|SELECT * FROM ce_platform_kpis;
+monthly_activity|SELECT * FROM ce_monthly_activity ORDER BY activity_month,paid;
+activation|SELECT * FROM ce_activation ORDER BY registration_month;
+status_retention|SELECT * FROM ce_status_retention ORDER BY paid,cohort_month,period;
+registration_retention|SELECT * FROM ce_registration_retention ORDER BY cohort_month,period;
+content_summary|SELECT * FROM ce_content_summary ORDER BY paid;
+content_monthly|SELECT * FROM ce_content_monthly ORDER BY watch_month,paid;
+f2p_buckets|SELECT * FROM ce_f2p_summary ORDER BY min_minutes;
+conversion_30day|SELECT * FROM ce_conversion_30day ORDER BY registration_month;
+courses|SELECT b.*,c.completion_rate AS viewing_duration_ratio,r.rating_count,r.mean_rating FROM ce_course_base b JOIN ce_courses c ON c.course_id=b.course_id LEFT JOIN ce_course_ratings r ON r.course_id=b.course_id ORDER BY b.minutes_watched DESC;
+exam_summary|SELECT * FROM ce_exam_summary ORDER BY exam_category;
+certificate_summary|SELECT certificate_type,COUNT(*) AS certificates,COUNT(DISTINCT student_id) AS recipients FROM ce_certificates GROUP BY certificate_type;
+career_track_funnel|SELECT f.action,f.track,f.count,e.count AS enrolled_students,f.count/e.count AS share_of_enrolled FROM ce_funnel f JOIN ce_funnel e ON f.track=e.track AND e.action='Enrolled in a track' ORDER BY f.track,FIELD(f.action,'Enrolled in a track','Attempted a course exam','Completed a course exam','Attempted a final exam','Earned a career track certificate');

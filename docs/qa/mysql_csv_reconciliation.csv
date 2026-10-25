@@ -1,0 +1,11 @@
+dataset,mysql_rows,csv_rows,key_mismatches,value_mismatches,duplicate_keys,columns_checked
+student_buckets_f2p.csv,37490,37490,0,0,0,"student_id,date_registered,f2p,total_minutes_watched,buckets"
+student_buckets_sub_duration.csv,2338,2338,0,0,0,"student_id,date_registered,total_minutes_watched,num_paid_days,buckets"
+student_engagement(1).csv,68340,68340,0,0,0,"student_id,date_engaged,paid,cohort,period"
+student_learning.csv,67436,67436,0,12181,0,"student_id,date_watched,minutes_watched,paid"
+student_onboarding.csv,37490,37490,0,0,0,"student_id,date_registered,student_onboarded"
+student_certificates.csv,3683,3683,0,0,0,"certificate_id,student_id,certificate_type,date_issued,paid"
+student_exam_attempts.csv,35359,35359,0,0,0,"exam_attempt_id,student_id,exam_id,exam_category,exam_passed,date_exam_completed"
+courses_engagement.csv,50,50,0,0,0,"course_id,course_title,minutes_watched,minutes_per_student,completion_rate"
+course_ratings.csv,2731,2731,0,0,0,course_rating
+career_track_funnel.csv,15,15,0,0,0,"action,track,count"

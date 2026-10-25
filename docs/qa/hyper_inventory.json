@@ -1,0 +1,124 @@
+[
+  {
+    "source": "course_ratings",
+    "table": "\"Extract\".\"Extract\"",
+    "rows": 2731,
+    "columns": [
+      "course_rating"
+    ],
+    "sha256": "74fa1166ca5e8eecdf4710da3e4c013784f167282b40cc48afb8a10c85e1b79f"
+  },
+  {
+    "source": "student_onboarding",
+    "table": "\"Extract\".\"Extract\"",
+    "rows": 37490,
+    "columns": [
+      "student_id",
+      "date_registered",
+      "student_onboarded"
+    ],
+    "sha256": "001b834a93a71d0a7b5f0374189acdb182045a2837389de8c7b0c8961436c31c"
+  },
+  {
+    "source": "courses_engagement",
+    "table": "\"Extract\".\"Extract\"",
+    "rows": 50,
+    "columns": [
+      "course_id",
+      "course_title",
+      "minutes_watched",
+      "minutes_per_student",
+      "completion_rate"
+    ],
+    "sha256": "8e8e100a2e63245d17a1d31f2fd0cd24b2c3296f60d5bf25b5514fbedf1eddab"
+  },
+  {
+    "source": "student_exam_attempts",
+    "table": "\"Extract\".\"Extract\"",
+    "rows": 35359,
+    "columns": [
+      "exam_attempt_id",
+      "student_id",
+      "exam_id",
+      "exam_category",
+      "exam_passed",
+      "date_exam_completed"
+    ],
+    "sha256": "3dc068f05246fdbe887bf8e396ac1cdff3ae062f7224fb6df10d971ddf4f2637"
+  },
+  {
+    "source": "career_track_funnel",
+    "table": "\"Extract\".\"Extract\"",
+    "rows": 15,
+    "columns": [
+      "action",
+      "track",
+      "count"
+    ],
+    "sha256": "b257164ea8bb63b9c54cca11986b533015dc5bdfdcb6297c2eb1d488cf6a0151"
+  },
+  {
+    "source": "student_engagement",
+    "table": "\"Extract\".\"Extract\"",
+    "rows": 68340,
+    "columns": [
+      "student_id",
+      "date_engaged",
+      "paid",
+      "cohort",
+      "period"
+    ],
+    "sha256": "8e8118c7e47995f21513116aa80be5ce11c5154cd0624660b731c9dd03b70d6a"
+  },
+  {
+    "source": "student_certificates",
+    "table": "\"Extract\".\"Extract\"",
+    "rows": 3683,
+    "columns": [
+      "certificate_id",
+      "student_id",
+      "certificate_type",
+      "date_issued",
+      "paid"
+    ],
+    "sha256": "c303cedcc50349394b463cb01a476843f29cad370692c1ec656a4bc33a7f8557"
+  },
+  {
+    "source": "student_learning",
+    "table": "\"Extract\".\"Extract\"",
+    "rows": 67436,
+    "columns": [
+      "student_id",
+      "date_watched",
+      "minutes_watched",
+      "paid"
+    ],
+    "sha256": "f1452e8b55d96279ec1c64ae2718ab91d905d81fa77b782dbc2e72291dc5a260"
+  },
+  {
+    "source": "student_buckets_f2p",
+    "table": "\"Extract\".\"Extract\"",
+    "rows": 37490,
+    "columns": [
+      "student_id",
+      "date_registered",
+      "f2p",
+      "total_minutes_watched",
+      "buckets"
+    ],
+    "sha256": "692199c76eb3d167b7b4a9dc7873614c24abaaf6dccf2226e7d2d5398b3df6e9"
+  },
+  {
+    "source": "student_buckets_sub_duration",
+    "table": "\"Extract\".\"Extract\"",
+    "rows": 2338,
+    "columns": [
+      "student_id",
+      "date_registered",
+      "total_minutes_watched",
+      "num_paid_days",
+      "buckets"
+    ],
+    "sha256": "eaf052ede312a66c5cdf2fb46ec1bc372c7e91c9c22269e5b9e91e1d8fef3f0d"
+  }
+]
