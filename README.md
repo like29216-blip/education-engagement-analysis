@@ -6,21 +6,24 @@ How does an online learning platform turn registrations into engaged learners an
 
 ## Dashboard Gallery
 
-The dashboard screenshots below illustrate the original Tableau analysis. They are historical views; the validated SQL results and documented source corrections are described separately.
-
 ### Platform Overview
+
 ![Platform overview](dashboard/screenshots/overview.png)
 
 ### Engagement & Onboarding
+
 ![Daily engagement](dashboard/screenshots/engagement_daily.png)
 
 ### Cohort Retention
+
 ![Cohort retention](dashboard/screenshots/cohorts.png)
 
 ### Learning & Free-to-Paid Conversion
+
 ![Learning and conversion](dashboard/screenshots/learning_conversion.png)
 
 ### Exams & Career Tracks
+
 ![Exams and career-track funnel](dashboard/screenshots/career_track_funnel.png)
 
 [Explore all dashboard screenshots](dashboard/screenshots/README.md)
@@ -34,15 +37,13 @@ The dashboard screenshots below illustrate the original Tableau analysis. They a
 
 ## Key Findings
 
-| Finding | Business implication |
-|---|---|
-| **19,332 of 37,490 registrations (51.56%)** were ever active | Registration volume alone does not measure engagement |
-| January period-1 same-status retention: **2.99% free vs 51.76% paid** | A large descriptive gap, not evidence that payment causes retention |
+| Finding                                                                                                | Business implication                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| **19,332 of 37,490 registrations (51.56%)** were ever active                                           | Registration volume alone does not measure engagement                                           |
+| January period-1 same-status retention: **2.99% free vs 51.76% paid**                                  | A large descriptive gap, not evidence that payment causes retention                             |
 | **2,338 purchasers (6.24%)**; **63 of 138 (45.65%)** in the (110, 120] viewing-minute bucket purchased | Viewing intensity can inform segmentation, but does not establish a causal conversion threshold |
-| Five foundational courses account for **55.14%** of raw viewing minutes | High-traffic learning paths are candidates for targeted improvements |
-| **43 career-track certificates** issued to **39 people**, alongside **7,874 track enrollments** | Examine assessment progression; these counts are not a validated chronological funnel |
-
-The analysis also identified two historical data issues: daily viewing totals were understated by **359,783.14 minutes**, and a Tableau import represented **18,524** decimal viewing-minute values as missing. The corrected SQL and validation evidence are retained in this repository; historical screenshots should not be used as the source of corrected totals.
+| Five foundational courses account for **55.14%** of raw viewing minutes                                | High-traffic learning paths are candidates for targeted improvements                            |
+| **43 career-track certificates** issued to **39 people**, alongside **7,874 track enrollments**        | Examine assessment progression; these counts are not a validated chronological funnel           |
 
 ## Recommendations
 
@@ -54,7 +55,7 @@ The analysis also identified two historical data issues: daily viewing totals we
 
 The case-study snapshot covers **37,490 registrations (January–October 2022)** and **11 relational tables**. The workflow is **SQL data preparation → metric definitions and quality checks → aggregate results → Tableau visualization → business interpretation**.
 
-The analysis preserves the historical status-entry cohort definitions for comparability. Purchase rates and cohort differences are descriptive, not causal. For methodology and interpretation, see [analysis report](docs/analysis_report.md), [metric definitions](docs/metric_definitions.md), and [data guide](data/README.md).
+For methodology and interpretation, see [analysis report](docs/analysis_report.md), [metric definitions](docs/metric_definitions.md), and [data guide](data/README.md).
 
 ## Repository Structure
 
@@ -68,8 +69,8 @@ scripts/             SQL execution and export utilities
 
 ## Reproducibility & Data Access
 
-The public repository contains analysis code, aggregate outputs, documentation and screenshots. **The raw database, row-level exports and packaged Tableau workbooks are not included**, because redistribution permissions for the underlying educational dataset have not been established. The SQL workflow can be run with an appropriately authorized copy of the source data.
+This repository includes SQL queries, aggregate results, dashboard screenshots and supporting documentation. The underlying dataset and Tableau workbooks are not redistributed. Run the SQL workflow with an authorized copy of the source data.
 
-## Limitations
+## Scope
 
-The data cannot establish causal effects of subscriptions, promotions or gamification. Purchases include refunds; time windows differ across some conversion groups; late retention cohorts have incomplete follow-up. Career-track stage counts are not necessarily sequential transitions. These constraints are discussed in the [analysis report](docs/analysis_report.md).
+Findings describe observed patterns, not causal effects. See the [analysis report](docs/analysis_report.md) for metric definitions and analytical constraints.
