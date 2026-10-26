@@ -16,8 +16,8 @@ The password prompt may recur because each module uses a separate client. A loca
 | 00_setup_views.sql | Historical and fixed-day entitlement views, daily learning/activity, onboarding, period scaffold; idempotent indexes | Eleven source tables |
 | 01_platform_engagement.sql | Population KPIs, monthly/daily activity, descriptive campaign window | 00 |
 | 02_activation_retention.sql | Activation; historical status-entry cohorts with censoring flag; separate registration-calendar extension | 00 |
-| 03_content_consumption.sql | Correct daily sums, watcher averages, subscription-span assignment export | 00 |
-| 04_f2p_conversion.sql | Assignment viewing windows/buckets; 30-day complete-cohort extension | 00 |
+| 03_content_consumption.sql | Correct daily sums, watcher averages, subscription-span export | 00 |
+| 04_f2p_conversion.sql | Viewing windows/buckets; 30-day complete-cohort extension | 00 |
 | 05_course_engagement.sql | Course reach, minutes, duration ratios and rating support | Source course/learning/rating tables |
 | 06_learning_outcomes.sql | Exam-attempt outcomes and issuance-date status | 00 |
 | 07_career_track_funnel.sql | Complete five-stage, per-track reach and actual issuance audit | Source track/exam/certificate tables |
@@ -25,9 +25,9 @@ The password prompt may recur because each module uses a separate client. A loca
 
 `ce_` objects are derived views. The setup adds four analytical indexes to the **local imported copy**; it does not change source row values or the supplied dump file. Views are idempotently replaced and contain deterministic grouped fields. No original query's trailing debug selects or user-specific lookup IDs remain in curated SQL.
 
-`result_manifest.txt` drives aggregate exports. Shell helpers calculate no business metrics: MySQL executes every calculation. Optional Python helpers only compare rows or package Tableau extracts; no notebook or Python analytics pipeline is required.
+`result_manifest.txt` drives aggregate exports. Shell helpers calculate no business metrics: MySQL executes every calculation. The supporting scripts provide repeatable exports and validation checks.
 
-## Assignment-compatible Tableau outputs
+## Tableau data-source exports
 
 Export each SELECT as a comma-separated, UTF-8 CSV with a header using Workbench or another MySQL client. Do not rename a tab-separated `.tsv` to `.csv`.
 
@@ -44,4 +44,4 @@ Export each SELECT as a comma-separated, UTF-8 CSV with a header using Workbench
 | student_certificates.csv | `SELECT * FROM ce_certificates;` |
 | career_track_funnel.csv | `SELECT * FROM ce_funnel;` |
 
-The historical engagement export filename in the handoff is `student_engagement(1).csv`. Its columns correspond to the cohort query, not merely the three-column activity query. Preserve header names when refreshing Tableau.
+For Tableau refreshes, preserve the documented export column names and map engagement cohorts to `ce_engagement_cohorts`.

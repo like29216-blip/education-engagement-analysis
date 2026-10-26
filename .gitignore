@@ -1,17 +1,9 @@
 .DS_Store
 __pycache__/
 *.pyc
+.env
 .venv/
 .qa-venv/
-.ipynb_checkpoints/
-# Private local review inputs; no redistribution license was provided.
-review_materials/
-# Packaged workbooks also contain record-level Hyper extracts.
-dashboard/*.twbx
-# Optional runtime logs / temporary files
-hyperd.log
-*.sock
-*.pid
-
-# Tableau recovery files
+*.twbx
 *.twbr
+review_materials/

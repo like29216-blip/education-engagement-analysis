@@ -168,7 +168,6 @@ Evidence: `sql/07_career_track_funnel.sql`, `career_track_funnel.tsv`. Tableau: 
 1. **Improve repeat learning:** test a short onboarding learning plan and reminders; measure a prospectively defined return window rather than relying on same-status group differences.
 2. **Evaluate conversion prompts experimentally:** use fixed pre-outcome exposure and equal follow-up; monitor refunds and engagement alongside purchases.
 3. **Investigate campaign quality:** add acquisition and exposure logs before attributing the August/September patterns to campaigns or gamification.
-4. **Keep the reporting contract stable:** use corrected daily minutes and decimal F2P minutes, retain original files, and document historical versus alternative entitlement rules.
-5. **Finish the public presentation:** visually revalidate the reviewed Tableau copy, export full-resolution dashboards, and confirm redistribution rights before any public upload.
+4. **Maintain consistent reporting definitions:** use corrected daily minutes and decimal viewing-minute values, and document alternative entitlement rules.
 
-No complex model or causal effect estimate is needed to justify these next steps. The project remains SQL + Tableau; Python helpers are optional comparison and packaging utilities, not implementations of the business analysis.
+These recommendations follow from descriptive SQL analysis and should be evaluated with prospective measurement before making causal claims.

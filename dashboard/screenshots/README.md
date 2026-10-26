@@ -1,17 +1,15 @@
-# Tableau Dashboard Screenshots
+# Dashboard Screenshots
 
-The nine full-size screenshots below were supplied from Tableau Public and cropped to remove the surrounding app interface. They are visual records of the dashboard, not rebuilt charts. The original workbook and reviewed workbook are provided in `dashboard/`.
+Screenshots captured from the original Tableau interface. Some filters and page variants are shown separately. Historical screenshots have not been reconciled against the corrected data extracts; use the validated SQL results for corrected metrics.
 
-| Section | Screenshot |
+| View | Image |
 |---|---|
-| Overview | [overview.png](overview.png) |
-| Engagement (daily) | [engagement_daily.png](engagement_daily.png) |
-| Engagement (monthly selection) | [engagement_month.png](engagement_month.png) |
-| Engagement (year view) | [engagement_year.png](engagement_year.png) |
-| Cohort Engagement | [cohorts.png](cohorts.png) |
-| Exams & Certificates | [exams.png](exams.png) |
-| Career Track Funnel | [career_track_funnel.png](career_track_funnel.png) |
-| Learning & Subscription Duration | [learning_subscription.png](learning_subscription.png) |
-| Learning & Free-to-Paid Conversion | [learning_conversion.png](learning_conversion.png) |
-
-Older `*_embedded.png` previews are retained as workbook-derived artifacts. Dashboard screenshots have not been separately reconciled to the reviewed workbook. See `docs/qa/` and `REVIEW_NOTES.md` for validation details.
+| Overview | [Open](overview.png) |
+| Engagement — daily | [Open](engagement_daily.png) |
+| Engagement — monthly | [Open](engagement_month.png) |
+| Engagement — yearly | [Open](engagement_year.png) |
+| Cohort retention | [Open](cohorts.png) |
+| Exams and certificates | [Open](exams.png) |
+| Career-track funnel | [Open](career_track_funnel.png) |
+| Learning and subscriptions | [Open](learning_subscription.png) |
+| Learning and conversion | [Open](learning_conversion.png) |
